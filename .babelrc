@@ -1,0 +1,3 @@
+{
+  "presets": ["env", "esversion: 6", "es2017"]
+}
