@@ -643,21 +643,21 @@ INSERT INTO Images (t_id, image,image_name, image_num)
       (153, 'img/cables/x144a-cable-2.jpg','x144a-cable-2',2),
       (153, 'img/cables/x144a-cable-3.jpg','x144a-cable-3',3);
 -- chisels
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image,image_name, image_num)
     VALUES
-      (239, 'img/chisel/sx273-chisel-1.jpg',1),
-      (239, 'img/chisel/sx273-chisel-2.jpg',2),
-      (239, 'img/chisel/sx273-chisel-3.jpg',3),
-      (183, 'img/chisel/x210-chisel.jpg',1),
-      (184, 'img/chisel/x211-chisel-1.jpg',1),
-      (184, 'img/chisel/x211-chisel-2.jpg',2),
-      (185, 'img/chisel/x212-chisel.jpg',1),
-      (186, 'img/chisel/x213-chisel-1.jpg',1),
-      (186, 'img/chisel/x213-chisel-2.jpg',2),
-      (187, 'img/chisel/x214-chisel.jpg',1),
-      (188, 'img/chisel/x215-chisel-1.jpg',1),
-      (188, 'img/chisel/x215-chisel-2.jpg',2),
-      (189, 'img/chisel/x216-chisel.jpg',1);
+      (239, 'img/chisel/sx273-chisel-1.jpg','sx273-chisel-1', 1),
+      (239, 'img/chisel/sx273-chisel-2.jpg','sx273-chisel-2',2),
+      (239, 'img/chisel/sx273-chisel-3.jpg','sx273-chisel-3',3),
+      (183, 'img/chisel/x210-chisel.jpg','x210-chisel',1),
+      (184, 'img/chisel/x211-chisel-1.jpg','x211-chisel-1',1),
+      (184, 'img/chisel/x211-chisel-2.jpg','x211-chisel-2',2),
+      (185, 'img/chisel/x212-chisel.jpg','x212-chisel',1),
+      (186, 'img/chisel/x213-chisel-1.jpg','x213-chisel-1',1),
+      (186, 'img/chisel/x213-chisel-2.jpg','x213-chisel-2',2),
+      (187, 'img/chisel/x214-chisel.jpg','x214-chisel',1),
+      (188, 'img/chisel/x215-chisel-1.jpg','x215-chisel-1',1),
+      (188, 'img/chisel/x215-chisel-2.jpg','x215-chisel-2',2),
+      (189, 'img/chisel/x216-chisel.jpg','x216-chisel',1);
 -- crimps
 INSERT INTO Images (t_id, image, image_num)
     VALUES
