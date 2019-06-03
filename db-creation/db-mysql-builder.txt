@@ -877,34 +877,34 @@ INSERT INTO Images (t_id, image, image_name, image_num)
 -- pliers
 INSERT INTO Images (t_id, image, image_num)
     VALUES
-      (145, 'img/plier/t135-pliers.jpg',1),
-      (29, 'img/plier/v30-pliers.jpg',1),
-      (111, 'img/plier/z101-pliers.jpg',1),
-      (113, 'img/plier/z103-pliers.jpg',1),
-      (114, 'img/plier/z104-pliers.jpg',1),
-      (115, 'img/plier/z105-pliers.jpg',1),
-      (108, 'img/plier/z98-pliers.jpg',1);
+      (145, 'img/plier/t135-pliers.jpg','t135-pliers',1),
+      (29, 'img/plier/v30-pliers.jpg','v30-pliers',1),
+      (111, 'img/plier/z101-pliers.jpg','z101-pliers',1),
+      (113, 'img/plier/z103-pliers.jpg','z103-pliers',1),
+      (114, 'img/plier/z104-pliers.jpg','z104-pliers',1),
+      (115, 'img/plier/z105-pliers.jpg','z105-pliers',1),
+      (108, 'img/plier/z98-pliers.jpg','z98-pliers',1);
 -- ratchets
 INSERT INTO Images (t_id, image, image_num)
     VALUES
-      (70, 'img/ratchet/k71-ratchet-1.jpg', 1),
-      (70, 'img/ratchet/k71-ratchet-2.jpg',2),
-      (70, 'img/ratchet/k71-ratchet-3.jpg',3),
-      (70, 'img/ratchet/k71-ratchet-4.jpg',4),
-      (71, 'img/ratchet/k72-ratchet-1.jpg',1),
-      (71, 'img/ratchet/k72-ratchet-2.jpg',2),
-      (71, 'img/ratchet/k72-ratchet-3.jpg',3),
-      (72, 'img/ratchet/k73-ratchet-1.jpg',1),
-      (72, 'img/ratchet/k73-ratchet-2.jpg',2),
-      (72, 'img/ratchet/k73-ratchet-3.jpg',3),
-      (73, 'img/ratchet/k74-ratchet.jpg',1),
-      (195, 'img/ratchet/p228-ratchet-1.jpg',1),
-      (195, 'img/ratchet/p228-ratchet-2.jpg',2),
-      (196, 'img/ratchet/p229-ratchet.jpg',1),
-      (278, 'img/ratchet/p301-ratchet-1.jpg',1),
-      (278, 'img/ratchet/p301-ratchet-2.jpg',2),
-      (28, 'img/ratchet/v29-ratchet-1.jpg',1),
-      (28, 'img/ratchet/v29-ratchet-2.jpg',2);
+      (70, 'img/ratchet/k71-ratchet-1.jpg','k71-ratchet-1', 1),
+      (70, 'img/ratchet/k71-ratchet-2.jpg','k71-ratchet-2',2),
+      (70, 'img/ratchet/k71-ratchet-3.jpg','k71-ratchet-3',3),
+      (70, 'img/ratchet/k71-ratchet-4.jpg','k71-ratchet-4',4),
+      (71, 'img/ratchet/k72-ratchet-1.jpg','k72-ratchet-1',1),
+      (71, 'img/ratchet/k72-ratchet-2.jpg','k72-ratchet-2',2),
+      (71, 'img/ratchet/k72-ratchet-3.jpg','k72-ratchet-3',3),
+      (72, 'img/ratchet/k73-ratchet-1.jpg','k73-ratchet-1',1),
+      (72, 'img/ratchet/k73-ratchet-2.jpg','k73-ratchet-2',2),
+      (72, 'img/ratchet/k73-ratchet-3.jpg','k73-ratchet-3',3),
+      (73, 'img/ratchet/k74-ratchet.jpg','k74-ratchet',1),
+      (195, 'img/ratchet/p228-ratchet-1.jpg','p228-ratchet-1',1),
+      (195, 'img/ratchet/p228-ratchet-2.jpg','p228-ratchet-2',2),
+      (196, 'img/ratchet/p229-ratchet.jpg','p229-ratchet',1),
+      (278, 'img/ratchet/p301-ratchet-1.jpg','p301-ratchet-1',1),
+      (278, 'img/ratchet/p301-ratchet-2.jpg','p301-ratchet-2',2),
+      (28, 'img/ratchet/v29-ratchet-1.jpg','v29-ratchet-1', 1),
+      (28, 'img/ratchet/v29-ratchet-2.jpg','v29-ratchet-2',2);
 -- removers
 INSERT INTO Images (t_id, image, image_num)
     VALUES
