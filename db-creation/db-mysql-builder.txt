@@ -586,27 +586,27 @@ INSERT INTO Images (t_id, image, img_name, image_num)
       (106, 'img/air/y96.jpg','y96',1),
       (107, 'img/air/y97.jpg','y97',1);
 -- bars
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image,img_name, image_num)
     VALUES
-      (166, 'img/bars/x156-bar.jpg',1),
-      (169, 'img/bars/x159-bar.jpg',1),
-      (170, 'img/bars/x160-bar-1.jpg',1),
-      (170, 'img/bars/x160-bar-2.jpg',2),
-      (171, 'img/bars/x161-bar-1.jpg',1),
-      (171, 'img/bars/x161-bar-2.jpg',2),
-      (171, 'img/bars/x161-bar-3.jpg',3),
-      (172, 'img/bars/x162-bar-1.jpg',1),
-      (172, 'img/bars/x162-bar-2.jpg',2),
-      (173, 'img/bars/x163-bar-1.jpg',1),
-      (173, 'img/bars/x163-bar-2.jpg',2),
-      (174, 'img/bars/x164-bar-1.jpg',1),
-      (174, 'img/bars/x164-bar-2.jpg',2),
-      (174, 'img/bars/x164-bar-3.jpg',3),
-      (175, 'img/bars/x165-bar-1.jpg',1),
-      (175, 'img/bars/x165-bar-2.jpg',2),
-      (176, 'img/bars/x166-bar-1.jpg',1),
-      (176, 'img/bars/x166-bar-2.jpg',2),
-      (176, 'img/bars/x166-bar-3.jpg',3);
+      (166, 'img/bars/x156-bar.jpg','x156-bar',1),
+      (169, 'img/bars/x159-bar.jpg','x159-bar',1),
+      (170, 'img/bars/x160-bar-1.jpg','x160-bar-1',1),
+      (170, 'img/bars/x160-bar-2.jpg','x160-bar-2',2),
+      (171, 'img/bars/x161-bar-1.jpg','x161-bar-1',1),
+      (171, 'img/bars/x161-bar-2.jpg','x161-bar-2',2),
+      (171, 'img/bars/x161-bar-3.jpg','x161-bar-3',3),
+      (172, 'img/bars/x162-bar-1.jpg','x162-bar-1',1),
+      (172, 'img/bars/x162-bar-2.jpg','x162-bar-2',2),
+      (173, 'img/bars/x163-bar-1.jpg','x163-bar-1',1),
+      (173, 'img/bars/x163-bar-2.jpg','x163-bar-2',2),
+      (174, 'img/bars/x164-bar-1.jpg','x164-bar-1',1),
+      (174, 'img/bars/x164-bar-2.jpg','x164-bar-2',2),
+      (174, 'img/bars/x164-bar-3.jpg','x164-bar-3',3),
+      (175, 'img/bars/x165-bar-1.jpg','x165-bar-1',1),
+      (175, 'img/bars/x165-bar-2.jpg','x165-bar-2',2),
+      (176, 'img/bars/x166-bar-1.jpg','x166-bar-1',1),
+      (176, 'img/bars/x166-bar-2.jpg','x166-bar-2',2),
+      (176, 'img/bars/x166-bar-3.jpg','x166-bar-3',3);
 -- bits
 INSERT INTO Images (t_id, image, image_num)
     VALUES
