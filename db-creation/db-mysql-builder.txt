@@ -939,16 +939,16 @@ INSERT INTO Images (t_id, image, image_name, image_num)
       (60, 'img/remover/z61-remove.jpg','z61-remove',1),
       (67, 'img/remover/z68-remove.jpg','z68-remove',1);
 -- scredrivers
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image, image_name, image_num)
     VALUES
-      (124, 'img/screwdriver/t114-screwdriver.jpg', 1),
-      (125, 'img/screwdriver/t115-screwdriver.jpg', 1),
-      (133, 'img/screwdriver/t123-screwdriver.jpg',1),
-      (138, 'img/ratchet/t128-ratchet-1.jpg',1),
-      (138, 'img/ratchet/t128-ratchet-2.jpg',2),
-      (168, 'img/screwdriver/x158-screwdriver-1.jpg',1),
-      (168, 'img/screwdriver/x158-screwdriver-2.jpg',2),
-      (168, 'img/screwdriver/x158-screwdriver-3.jpg',3);
+      (124, 'img/screwdriver/t114-screwdriver.jpg','t114-screwdriver', 1),
+      (125, 'img/screwdriver/t115-screwdriver.jpg','t115-screwdriver', 1),
+      (133, 'img/screwdriver/t123-screwdriver.jpg','t123-screwdriver',1),
+      (138, 'img/ratchet/t128-ratchet-1.jpg','t128-ratchet-1',1),
+      (138, 'img/ratchet/t128-ratchet-2.jpg','t128-ratchet-2', 2),
+      (168, 'img/screwdriver/x158-screwdriver-1.jpg','x158-screwdriver-1',1),
+      (168, 'img/screwdriver/x158-screwdriver-2.jpg','x158-screwdriver-2',2),
+      (168, 'img/screwdriver/x158-screwdriver-3.jpg','x158-screwdriver-3',3);
 -- sockets
 INSERT INTO Images (t_id, image, image_num)
     VALUES
