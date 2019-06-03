@@ -1041,18 +1041,18 @@ INSERT INTO Images (t_id, image, image_name, image_num)
       (273, 'img/visegrips/sx297j-visegrip.jpg','sx297j-visegrip',1),
       (274, 'img/visegrips/sx297k-visegrip.jpg','sx297k-visegrip',1);
 -- discs
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image, image_name, image_num)
     VALUES
-      (322, 'img/disc/u349-disc.jpg',1),
-      (323, 'img/disc/u350-disc-1.jpg',1),
-      (323, 'img/disc/u350-disc-2.jpg',2),
-      (324, 'img/disc/u351-disc.jpg',1),
-      (325, 'img/disc/u352-disc-1.jpg',1),
-      (325, 'img/disc/u352-disc-2.jpg',2),
-      (326, 'img/disc/u353-disc.jpg',1),
-      (327, 'img/disc/u354-disc.jpg',1),
-      (329, 'img/disc/u355-disc-1.jpg',1),
-      (329, 'img/disc/u355-disc-2.jpg',2);
+      (322, 'img/disc/u349-disc.jpg','u349-disc',1),
+      (323, 'img/disc/u350-disc-1.jpg','u350-disc-1',1),
+      (323, 'img/disc/u350-disc-2.jpg','u350-disc-2',2),
+      (324, 'img/disc/u351-disc.jpg','u351-disc',1),
+      (325, 'img/disc/u352-disc-1.jpg','u352-disc-1',1),
+      (325, 'img/disc/u352-disc-2.jpg','u352-disc-2',2),
+      (326, 'img/disc/u353-disc.jpg','u353-disc',1),
+      (327, 'img/disc/u354-disc.jpg','u354-disc',1),
+      (329, 'img/disc/u355-disc-1.jpg','u355-disc-1',1),
+      (329, 'img/disc/u355-disc-2.jpg','u355-disc-2',2);
 -- wrenches
 INSERT INTO Images (t_id, image, image_num)
     VALUES
