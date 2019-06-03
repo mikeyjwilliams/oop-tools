@@ -659,14 +659,14 @@ INSERT INTO Images (t_id, image,image_name, image_num)
       (188, 'img/chisel/x215-chisel-2.jpg','x215-chisel-2',2),
       (189, 'img/chisel/x216-chisel.jpg','x216-chisel',1);
 -- crimps
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image,image_name, image_num)
     VALUES
-      (62, 'img/crimps/r63-crimp.jpg',1),
-      (63, 'img/crimps/r64-crimp.jpg',1),
-      (110, 'img/crimps/z100-crimp.jpg',1),
-      (61, 'img/crimps/z62-crimp-1.jpg',1),
-      (61, 'img/crimps/z62-crimp-2.jpg',2),
-      (109, 'img/crimps/z99-crimp.jpg',1);
+      (62, 'img/crimps/r63-crimp.jpg','r63-crimp',1),
+      (63, 'img/crimps/r64-crimp.jpg','r64-crimp',1),
+      (110, 'img/crimps/z100-crimp.jpg','z100-crimp',1),
+      (61, 'img/crimps/z62-crimp-1.jpg','z62-crimp-1',1),
+      (61, 'img/crimps/z62-crimp-2.jpg','z62-crimp-2',2),
+      (109, 'img/crimps/z99-crimp.jpg','z99-crimp',1);
 -- extensions
 INSERT INTO Images (t_id, image, image_num)
     VALUES
