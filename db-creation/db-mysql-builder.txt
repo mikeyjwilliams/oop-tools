@@ -618,16 +618,16 @@ INSERT INTO Images (t_id, image, img_name, image_num)
       (318, 'img/bit/n345-bit-1.jpg','n345-bit-1',1),
       (32, 'img/bit/v33-bit.jpg','v33-bit', 1);
 -- blades
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image, img_name image_num)
     VALUES
-      (313, 'img/blade/n339-blade.jpg',1),
-      (314, 'img/blade/n340-blade.jpg',1),
-      (315, 'img/blade/n341-blade.jpg',1),
-      (316, 'img/blade/n343-blade.jpg',1),
-      (309, 'img/blade/q335-blade.jpg',1),
-      (310, 'img/blade/q336-blade.jpg',1),
-      (311, 'img/blade/q337-blade.jpg',1),
-      (312, 'img/blade/q338-blade.jpg',1);
+      (313, 'img/blade/n339-blade.jpg','n339-blade',1),
+      (314, 'img/blade/n340-blade.jpg','n340-blade',1),
+      (315, 'img/blade/n341-blade.jpg','n341-blade',1),
+      (316, 'img/blade/n343-blade.jpg','n343-blade',1),
+      (309, 'img/blade/q335-blade.jpg','q335-blade',1),
+      (310, 'img/blade/q336-blade.jpg','q336-blade',1),
+      (311, 'img/blade/q337-blade.jpg','q337-blade',1),
+      (312, 'img/blade/q338-blade.jpg','q338-blade',1);
 -- cables
 INSERT INTO Images (t_id, image, image_num)
     VALUES
