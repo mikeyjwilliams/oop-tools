@@ -559,32 +559,32 @@ INSERT INTO Tools (item_code, item_name, retail_price, sale_price, item_pieces, 
       ('rrc360', 'race car candy', 0.00, 0.00, 0, 1, 0, 33, 14, 14, 'rrc360 a few odds and ends next including some race car/show car candy make offer');
 
 -- air
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image, img_name, image_num)
     VALUES
-      (47, 'img/air/b48-air.jpg',1),
-      (49, 'img/air/b50-air.jpg',1),
-      (50, 'img/air/b51-air.jpg',1),
-      (51, 'img/air/b52-air.jpg',1),
-      (52, 'img/air/b53-air.jpg',1),
-      (48, 'img/air/f49-air.jpg',1),
-      (53, 'img/air/f54-air.jpg',1),
-      (44, 'img/air/h44-air.jpg',1),
-      (45, 'img/air/h45-air.jpg',1),
-      (46, 'img/air/h46-air.jpg',1),
-      (181, 'img/air/sx207-air.jpg',1),
-      (97, 'img/air/x86-air.jpg',1),
-      (98, 'img/air/x87-air.jpg',1),
-      (99, 'img/air/x88-air.jpg',1),
-      (100, 'img/air/x89-air.jpg',1),
-      (30, 'img/air/y31-air.jpg',1),
-      (34, 'img/air/y34-air.jpg',1),
-      (101, 'img/air/y90.jpg',1),
-      (102, 'img/air/y91.jpg',1),
-      (103, 'img/air/y92.jpg',1),
-      (104, 'img/air/y93.jpg',1),
-      (105, 'img/air/y95.jpg',1),
-      (106, 'img/air/y96.jpg',1),
-      (107, 'img/air/y97.jpg',1);
+      (47, 'img/air/b48-air.jpg','b48-air',1),
+      (49, 'img/air/b50-air.jpg',,'b50-air',1),
+      (50, 'img/air/b51-air.jpg',','b51-air',1),
+      (51, 'img/air/b52-air.jpg',','b52-air'1),
+      (52, 'img/air/b53-air.jpg',','b53-air',1),
+      (48, 'img/air/f49-air.jpg','f49-air',1),
+      (53, 'img/air/f54-air.jpg','f54-air',1),
+      (44, 'img/air/h44-air.jpg','h44-air',1),
+      (45, 'img/air/h45-air.jpg','h45-air',1),
+      (46, 'img/air/h46-air.jpg','h46-air',1),
+      (181, 'img/air/sx207-air.jpg','sx207-air',1),
+      (97, 'img/air/x86-air.jpg','x86-air',1),
+      (98, 'img/air/x87-air.jpg','x87-air',1),
+      (99, 'img/air/x88-air.jpg','x88-air',1),
+      (100, 'img/air/x89-air.jpg','x89-air',1),
+      (30, 'img/air/y31-air.jpg','y31-air',1),
+      (34, 'img/air/y34-air.jpg','y34-air',1),
+      (101, 'img/air/y90.jpg','y90',1),
+      (102, 'img/air/y91.jpg','y91',1),
+      (103, 'img/air/y92.jpg',,'y92',1),
+      (104, 'img/air/y93.jpg','y93',1),
+      (105, 'img/air/y95.jpg','y95',1),
+      (106, 'img/air/y96.jpg','y96',1),
+      (107, 'img/air/y97.jpg','y97',1);
 -- bars
 INSERT INTO Images (t_id, image, image_num)
     VALUES
