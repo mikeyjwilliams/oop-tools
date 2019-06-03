@@ -757,18 +757,18 @@ INSERT INTO Images (t_id, image, image_name, image_num)
       (247, 'img/hooks/sx281-hook-2.jpg','sx281-hook-2',2),
       (248, 'img/hooks/sx282-hook.jpg','sx282-hook',1);
 -- jacks
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image, image_name,  image_num)
     VALUES
-      (178, 'img/jack/sx200-jack.jpg', 1),
-      (179, 'img/jack/sx201-jack.jpg', 1),
-      (180, 'img/jack/sx202-jack-1.jpg',1),
-      (180, 'img/jack/sx202-jack-2.jpg', 2),
-      (180, 'img/jack/sx202-jack-3.jpg', 3),
-      (154, 'img/jack/x144-jack.jpg', 1),
-      (155, 'img/jack/x145-jack.jpg', 1),
-      (182, 'img/jack/x208-jack-1.jpg', 1),
-      (182, 'img/jack/x208-jack-2.jpg', 2),
-      (43, 'img/jack/x43-jack.jpg', 1);
+      (178, 'img/jack/sx200-jack.jpg','sx200-jack', 1),
+      (179, 'img/jack/sx201-jack.jpg','sx201-jack', 1),
+      (180, 'img/jack/sx202-jack-1.jpg','sx202-jack-1',1),
+      (180, 'img/jack/sx202-jack-2.jpg','sx202-jack-2', 2),
+      (180, 'img/jack/sx202-jack-3.jpg','sx202-jack-3', 3),
+      (154, 'img/jack/x144-jack.jpg','x144-jack', 1),
+      (155, 'img/jack/x145-jack.jpg','x145-jack',1),
+      (182, 'img/jack/x208-jack-1.jpg','x208-jack-1', 1),
+      (182, 'img/jack/x208-jack-2.jpg','x208-jack-2', 2),
+      (43, 'img/jack/x43-jack.jpg','x43-jack', 1);
 -- misc
 INSERT INTO Images (t_id, image, image_num)
     VALUES
