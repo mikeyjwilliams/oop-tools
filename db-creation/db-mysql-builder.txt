@@ -668,23 +668,23 @@ INSERT INTO Images (t_id, image,image_name, image_num)
       (61, 'img/crimps/z62-crimp-2.jpg','z62-crimp-2',2),
       (109, 'img/crimps/z99-crimp.jpg','z99-crimp',1);
 -- extensions
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image,image_name, image_num)
     VALUES
-      (74, 'img/extension/k75-ext-1.jpg',1),
-      (74, 'img/extension/k75-ext-2.jpg',2),
-      (76, 'img/extension/k77-ext.jpg',1),
-      (77, 'img/extension/k78-ext.jpg',1),
-      (81, 'img/extension/k82-ext.jpg',1),
-      (210, 'img/extension/l244-ext.jpg',1),
-      (211, 'img/extension/l25-ext.jpg',1),
-      (198, 'img/extension/p231-ext.jpg',1),
-      (199, 'img/extension/p232-ext.jpg',1),
-      (203, 'img/extension/p236-ext.jpg',1),
-      (275, 'img/extension/p298-ext.jpg',1),
-      (276, 'img/extension/p299-ext.jpg',1),
-      (277, 'img/extension/p300-ext.jpg',1),
-      (290, 'img/extension/p314-ext.jpg',1),
-      (135, 'img/extension/x125-ext.jpg',1);
+      (74, 'img/extension/k75-ext-1.jpg','k75-ext-1',1),
+      (74, 'img/extension/k75-ext-2.jpg','k75-ext-2',2),
+      (76, 'img/extension/k77-ext.jpg','k77-ext',1),
+      (77, 'img/extension/k78-ext.jpg','k78-ext',1),
+      (81, 'img/extension/k82-ext.jpg','k82-ext',1),
+      (210, 'img/extension/l244-ext.jpg','l244-ext',1),
+      (211, 'img/extension/l25-ext.jpg','l25-ext',1),
+      (198, 'img/extension/p231-ext.jpg','p231-ext',1),
+      (199, 'img/extension/p232-ext.jpg','p232-ext',1),
+      (203, 'img/extension/p236-ext.jpg','p236-ext',1),
+      (275, 'img/extension/p298-ext.jpg','p298-ext',1),
+      (276, 'img/extension/p299-ext.jpg','p299-ext',1),
+      (277, 'img/extension/p300-ext.jpg','p300-ext',1),
+      (290, 'img/extension/p314-ext.jpg','p314-ext',1),
+      (135, 'img/extension/x125-ext.jpg','x125-ext',1);
 -- files inside misc, blade
 INSERT INTO Images (t_id, image, image_num)
     VALUES
