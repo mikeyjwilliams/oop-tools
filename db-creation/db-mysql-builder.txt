@@ -1022,24 +1022,24 @@ INSERT INTO Images (t_id, image, image_num)
       (37, 'img/socket/x37-socket.jpg','x37-socket',1),
       (38, 'img/socket/x38-socket.jpg','x38-socket',1);
 -- vise grips
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image, image_name, image_num)
     VALUES
-      (264, 'img/visegrips/sx297-visegrip-1.jpg',1),
-      (264, 'img/visegrips/sx297-visegrip-2.jpg',2),
-      (265, 'img/visegrips/sx279a-visegrip.jpg',1),
-      (266, 'img/visegrips/sx297b-visegrip.jpg',1),
-      (267, 'img/visegrips/sx297c-visegrip.jpg',1),
-      (268, 'img/visegrips/sx297d-visegrip-1.jpg',1),
-      (268, 'img/visegrips/sx297d-visegrip-2.jpg',2),
-      (268, 'img/visegrips/sx297d-videgrip-3.jpg',3),
-      (269, 'img/visegrips/sx297e-visegrip-1.jpg',1),
-      (269, 'img/visegrips/sx297e-visegrip-2.jpg',2),
-      (269, 'img/visegrips/sx297e-visegrip-3.jpg',3),
-      (270, 'img/visegrips/sx297f-visegrip.jpg',1),
-      (271, 'img/visegrips/sx297h-visegrip.jpg',1),
-      (272, 'img/visegrips/sx297i-visegrip.jpg',1),
-      (273, 'img/visegrips/sx297j-visegrip.jpg',1),
-      (274, 'img/visegrips/sx297k-visegrip.jpg',1);
+      (264, 'img/visegrips/sx297-visegrip-1.jpg','sx297-visegrip-1',1),
+      (264, 'img/visegrips/sx297-visegrip-2.jpg','sx297-visegrip-2',2),
+      (265, 'img/visegrips/sx279a-visegrip.jpg','sx279a-visegrip',1),
+      (266, 'img/visegrips/sx297b-visegrip.jpg','sx297b-visegrip',1),
+      (267, 'img/visegrips/sx297c-visegrip.jpg','sx297c-visegrip',1),
+      (268, 'img/visegrips/sx297d-visegrip-1.jpg','sx297d-visegrip-1',1),
+      (268, 'img/visegrips/sx297d-visegrip-2.jpg','sx297d-visegrip-2',2),
+      (268, 'img/visegrips/sx297d-videgrip-3.jpg','sx297d-videgrip-3',3),
+      (269, 'img/visegrips/sx297e-visegrip-1.jpg','sx297e-visegrip-1',1),
+      (269, 'img/visegrips/sx297e-visegrip-2.jpg','sx297e-visegrip-2',2),
+      (269, 'img/visegrips/sx297e-visegrip-3.jpg','sx297e-visegrip-3',3),
+      (270, 'img/visegrips/sx297f-visegrip.jpg','sx297f-visegrip',1),
+      (271, 'img/visegrips/sx297h-visegrip.jpg','sx297h-visegrip',1),
+      (272, 'img/visegrips/sx297i-visegrip.jpg','sx297i-visegrip',1),
+      (273, 'img/visegrips/sx297j-visegrip.jpg','sx297j-visegrip',1),
+      (274, 'img/visegrips/sx297k-visegrip.jpg','sx297k-visegrip',1);
 -- discs
 INSERT INTO Images (t_id, image, image_num)
     VALUES
