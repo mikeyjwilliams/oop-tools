@@ -686,13 +686,13 @@ INSERT INTO Images (t_id, image,image_name, image_num)
       (290, 'img/extension/p314-ext.jpg','p314-ext',1),
       (135, 'img/extension/x125-ext.jpg','x125-ext',1);
 -- files inside misc, blade
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image, image_name image_num)
     VALUES
-      (132, 'img/misc/t122-misc-1.jpg',2),
-      (132, 'img/misc/t122-misc-2.jpg',1),
-      (132, 'img/misc/t122-misc-3.jpg',3),
-      (132, 'img/misc/t122-misc-4.jpg',4),
-      (54,  'img/blade/w55-blade.jpg',1);
+      (132, 'img/misc/t122-misc-1.jpg', 't122-misc-1', 2),
+      (132, 'img/misc/t122-misc-2.jpg','t122-misc-2',1),
+      (132, 'img/misc/t122-misc-3.jpg','t122-misc-3',3),
+      (132, 'img/misc/t122-misc-4.jpg','t122-misc-4',4),
+      (54,  'img/blade/w55-blade.jpg','w55-blade',1);
 -- hammers
 INSERT INTO Images (t_id, image, image_num)
     VALUES
