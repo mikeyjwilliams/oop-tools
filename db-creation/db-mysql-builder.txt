@@ -694,24 +694,24 @@ INSERT INTO Images (t_id, image, image_name image_num)
       (132, 'img/misc/t122-misc-4.jpg','t122-misc-4',4),
       (54,  'img/blade/w55-blade.jpg','w55-blade',1);
 -- hammers
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image,image_name, image_num)
     VALUES
-      (249, 'img/hammer/sx283-hammer-1.jpg',1),
-      (249, 'img/hammer/sx283-hammer-2.jpg',2),
-      (249, 'img/hammer/sx283-hammer-3.jpg',3),
-      (250, 'img/hammer/sx284-hammer-1.jpg',1),
-      (250, 'img/hammer/sx284-hammer-2.jpg',2),
-      (250, 'img/hammer/sx284-hammer-3.jpg',3),
-      (251, 'img/hammer/sx285-hammer.jpg',1),
-      (252, 'img/hammer/sx286-hammer-1.jpg',1),
-      (252, 'img/hammer/sx286-hammer-2.jpg',2),
-      (253, 'img/hammer/sx287-hammer.jpg',1),
-      (254, 'img/hammer/sx288-hammer-1.jpg',1),
-      (254, 'img/hammer/sx288-hammer-2.jpg',2),
-      (255, 'img/hammer/sx289-hammer-1.jpg',1),
-      (255, 'img/hammer/sx289-hammer-2.jpg',2),
-      (256, 'img/hammer/sx290-hammer-1.jpg',1),
-      (256, 'img/hammer/sx290-hammer-2.jpg',2);
+      (249, 'img/hammer/sx283-hammer-1.jpg','sx283-hammer-1',1),
+      (249, 'img/hammer/sx283-hammer-2.jpg','sx283-hammer-2',2),
+      (249, 'img/hammer/sx283-hammer-3.jpg','sx283-hammer-3',3),
+      (250, 'img/hammer/sx284-hammer-1.jpg','sx284-hammer-1',1),
+      (250, 'img/hammer/sx284-hammer-2.jpg','sx284-hammer-2',2),
+      (250, 'img/hammer/sx284-hammer-3.jpg','sx284-hammer-3',3),
+      (251, 'img/hammer/sx285-hammer.jpg','sx285-hammer',1),
+      (252, 'img/hammer/sx286-hammer-1.jpg','sx286-hammer-1',1),
+      (252, 'img/hammer/sx286-hammer-2.jpg','sx286-hammer-2',2),
+      (253, 'img/hammer/sx287-hammer.jpg','sx287-hammer',1),
+      (254, 'img/hammer/sx288-hammer-1.jpg','sx288-hammer-1',1),
+      (254, 'img/hammer/sx288-hammer-2.jpg','sx288-hammer-2',2),
+      (255, 'img/hammer/sx289-hammer-1.jpg','sx289-hammer-1',1),
+      (255, 'img/hammer/sx289-hammer-2.jpg','sx289-hammer-2',2),
+      (256, 'img/hammer/sx290-hammer-1.jpg','sx290-hammer-1',1),
+      (256, 'img/hammer/sx290-hammer-2.jpg','sx290-hammer-2',2);
 -- hooks chains etc
 INSERT INTO Images (t_id, image, image_num)
     VALUES
