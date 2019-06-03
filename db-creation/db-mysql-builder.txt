@@ -608,15 +608,15 @@ INSERT INTO Images (t_id, image,img_name, image_num)
       (176, 'img/bars/x166-bar-2.jpg','x166-bar-2',2),
       (176, 'img/bars/x166-bar-3.jpg','x166-bar-3',3);
 -- bits
-INSERT INTO Images (t_id, image, image_num)
+INSERT INTO Images (t_id, image, img_name, image_num)
     VALUES
-      (301, 'img/bit/i325-bit-1.jpg',1),
-      (302, 'img/bit/i326-bit-1.jpg',1),
-      (302, 'img/bit/i326-bit-2.jpg', 2),
-      (303, 'img/bit/i327-bit.jpg', 1),
-      (304, 'img/bit/i328-bit.jpg', 1),
-      (318, 'img/bit/n345-bit-1.jpg',1),
-      (32, 'img/bit/v33-bit.jpg',1);
+      (301, 'img/bit/i325-bit-1.jpg','i325-bit-1',1),
+      (302, 'img/bit/i326-bit-1.jpg','i326-bit-1',1),
+      (302, 'img/bit/i326-bit-2.jpg','i326-bit-2', 2),
+      (303, 'img/bit/i327-bit.jpg','i327-bit', 1),
+      (304, 'img/bit/i328-bit.jpg','i328-bit', 1),
+      (318, 'img/bit/n345-bit-1.jpg','n345-bit-1',1),
+      (32, 'img/bit/v33-bit.jpg','v33-bit', 1);
 -- blades
 INSERT INTO Images (t_id, image, image_num)
     VALUES
